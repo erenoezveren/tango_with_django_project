@@ -135,3 +135,8 @@ STATIC_URL = '/static/'
 #LOGIN
 
 LOGIN_URL = "rango:login"
+
+
+#SESSION
+
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
